@@ -37,7 +37,7 @@ public class Dog extends Mammal{
 
     @Override
     public int hashCode() {
-        return Objects.hashCode(breed);
+        return Objects.hash(getAge(),getName(),breed);
     }
 
     public void feed(){
