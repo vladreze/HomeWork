@@ -17,6 +17,10 @@ public class Cat extends Mammal{
         this.color = color;
     }
 
+    public void feedCat(){
+        System.out.println("Yum yum fro cat");
+    }
+
     @Override
     public String toString() {
         return super.toString() + "Cat{" +

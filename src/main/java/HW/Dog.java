@@ -40,6 +40,10 @@ public class Dog extends Mammal{
         return Objects.hashCode(breed);
     }
 
+    public void feed(){
+        System.out.println("Yum yum for dog");
+    }
+
     @Override
     public String toString() {
         return super.toString() + "Dog{" +
